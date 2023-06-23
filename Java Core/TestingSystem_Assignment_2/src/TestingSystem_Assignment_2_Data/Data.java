@@ -2,10 +2,12 @@ package TestingSystem_Assignment_2_Data;
 
 import java.time.LocalTime;
 
+
 import TestingSystem_Assignment_2_Enum.PositionName;
 
 public class Data {
 
+@SuppressWarnings("static-access")
 public static void main(String[] args) {
 	
 	// Create Deparment
