@@ -56,7 +56,10 @@ Chỉ in ra tháng và năm của create date property trong Question 2
 	System.out.printf("--- Question 3.5: ---%n"); 	
 	
 	
-
+/**
+ * Question 6:
+In ra thông tin account (như Question 8 phần FOREACH) theo định dạng table (giống trong Database)
+ */
 	
 	
 	

@@ -58,10 +58,12 @@ public static void main(String[] args) {
 In ra thông tin account (như Question 8 phần FOREACH) theo định dạng table 
 	(giống trong Database)
  */
+	System.out.printf("--- Question_26: ---%n"); 
 	
 	
-	
-	
-	
+	public static void Question_26; 
+	for (Account account : arrA
+		
+	}
 }	
 }

@@ -7,7 +7,7 @@ import TestingSystem_Assignment_2_Enum.PositionName;
 
 public class Data {
 
-@SuppressWarnings("static-access")
+
 public static void main(String[] args) {
 	
 	// Create Deparment
@@ -102,6 +102,7 @@ public static void main(String[] args) {
 	Nếu không thì sẽ in ra text "Phòng ban của nhân viên này là …"
 	 */
 	
+	public static void question1() {
 		System.out.println("---Question 1: Check account2---");
 		
 		if (account2.departmentId == null) 
@@ -111,6 +112,7 @@ public static void main(String[] args) {
 		else {
 		System.out.println("Phòng ban của nhân viên này là: " + account2.departmentId.Name);
 		}
+	}
 /**
  * Question 2:
 Kiểm tra account thứ 2 
@@ -169,11 +171,11 @@ Còn lại in ra "Nhóm có nhiều thành viên"
 
 		System.out.println("---Question 5: Number of accounts in group1---");
 		
-		if (group1.accounts == null) {
+		if (group2.accounts == null) {
 			System.out.println("Nhóm không có thành viên nào");
 			} 
 		else {
-		int countAccount = group1.accounts.length; 
+		int countAccount = group2.accounts.length; 
 		switch(countAccount)
 		{
 		case 1:
@@ -273,12 +275,10 @@ Còn lại in ra "Nhóm có nhiều thành viên"
 		
 		for (int i = 0; i < accArray1.length; i++) { 
 			System.out.println("Thông tin account thứ " + (i + 1) + " là:");
-			System.out.println("Email: " + accArray1[i].Email);
+			System.out.println("Email: " + accArray1[i].getEmail());
 			System.out.println("Full name: " + accArray1[i].fullName);
 			System.out.println("Phòng ban: " + accArray1[i].departmentId.Name);
 		}
-		
-		
 		
 		
 		
